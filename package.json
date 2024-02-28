@@ -1,0 +1,22 @@
+{
+  "name": "es6-class-hierarchy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Animal.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/Animal.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/Animal.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "nodemon": "^1.18.3"
+  }
+}
+
